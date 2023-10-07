@@ -1,0 +1,57 @@
+<!-- ========================= FOOTER ========================= -->
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row text-center">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-1 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic" href="#">
+            <i class="fab fa-github fa-lg white-text mr-5 md-1 fa-2x"></i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="#">
+            <i class="fab fa-linkedin fa-lg white-text mr-5 md-1 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic" href="#">
+            <i class="fas fa-envelope fa-lg white-text mr-5 md-1 fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3"> <i class="fab fa-osi fa-lg white-text mr-1 md-1 fa-2x"></i> Kolawole Oladejo
+
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<!-- ======== FOOTER END // ========================= -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	$('.thumb a').click(function(e) {
+		e.preventDefault();
+		$('.mainImage img').attr('src',$(this).attr("href"));
+	})
+})
+</script>
+</body>
+</html>
