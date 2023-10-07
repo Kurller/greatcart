@@ -66,7 +66,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_session_timeout.middleware.SessionTimeoutMiddleware',
 ]
-
 ROOT_URLCONF = 'greatcart.urls'
 
 TEMPLATES = [
