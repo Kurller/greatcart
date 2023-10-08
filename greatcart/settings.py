@@ -26,7 +26,7 @@ TEMPLATES_DIR = BASE_DIR / "templates"
 SECRET_KEY = 'django-insecure-a5on-0$u+$t9kc45bww46$oxlflo743#!&8*jjjcsi+k3dh-lf'
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = config('DEBUG', default=True, cast=bool)
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','localhost',"ecomme-dx7w.onrender.com"]
 
