@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-a5on-0$u+$t9kc45bww46$oxlflo743#!&8*jjjcsi+k3dh-lf
 # DEBUG = config('DEBUG', default=True, cast=bool)
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost',"ecomme-dx7w.onrender.com"]
+ALLOWED_HOSTS = ['127.0.0.1','localhost',"greatapp.onrender.com"]
 
 
 
